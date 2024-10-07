@@ -11,7 +11,7 @@ exports.login=async function(req,res,next) {
             res.send({"status":0,message:"Username Or Passwords Incorrect"});
         }
     }else{
-        res.send({"status":0,message:"Username Or Passwords Inco333rrt"});
+        res.send({"status":0,message:"Username Or Passwords Incorrect"});
     }
 };
 
